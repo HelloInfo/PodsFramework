@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <h1>Welcome to my home</h1>
+    <div id="content">欢迎来到这个页面！</div>
+    <br />
+    <div id="logText">尚未开始计数</div>
+  </body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>定时输出日志</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+    </style>
+    <script>
+      // 定义一个全局变量用于计数
+      let logCount = 0;
+
+      // 定义一个函数用于输出日志并更新文本
+      function logMessage() {
+        console.log(`这是第 ${logCount} 次输出日志`);
+        document.getElementById("logText").innerText = `这是第 ${logCount} 次输出日志`;
+        logCount++;
+      }
+
+      // 在页面加载完成后启动定时器
+      window.onload = function () {
+        document.getElementById("content").innerText = "欢迎来到这个页面！";
+        document.getElementById("logText").innerText = "尚未开始计数";
+        console.log("test html");
+        // 设置一个定时器，每2秒执行一次 logMessage 函数
+        setInterval(logMessage, 2000);
+      };
+    </script>
+  </head>
+</html>
