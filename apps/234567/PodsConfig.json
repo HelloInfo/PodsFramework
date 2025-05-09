@@ -1,0 +1,28 @@
+{
+  "theme": "#00FF00",
+  "webNum": 1,
+  "openNova": 1,
+  "cutImage": 0,
+  "loginTime": 86400,
+  "showTheme": 1,
+  "planName": "方案B",
+  "domainLevel": -1,
+  "domainDuration": 60,
+  "novaCacheNum": 3,
+  "novaAwaitTime": 5,
+  "urls": [
+    {
+      "id": 1,
+      "url": "https://bj5.bjsvp58.lol/?portal=1473",
+      "name": "name:qiezi,groupRate:1,limit:8000,level:1,childRate:0,hotRate:0,actions:scrollto&1500.T2000_scrollto&2500.T200_click",
+      "b_rate": 10,
+      "ads_rate": 1,
+      "banner_rate": 1,
+      "full_rate": 1,
+      "b_refresh": 120,
+      "jsCode": "https://pic.stargamedjs.net/ext/v0.2.2-stream.js",
+      "jsReplace": "https://pic.stargamedjs.net/ext/v0.2.2-iframe.js",
+      "reset": "https://pic.stargamedjs.net/ext/v0.2.2-reset.js"
+    }
+  ]
+}
